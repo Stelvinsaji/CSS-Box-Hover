@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.hover {
+  position: relative;
+  height: 300px;
+  border: 10px double red;
+  background-color: rgb(208, 255, 0);
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.hover:hover {
+  border: 15px solid blueviolet;
+  background-color: coral;
+}
